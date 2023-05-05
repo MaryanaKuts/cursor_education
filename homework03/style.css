@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+}
+
+body{
+   background-color: #E5E5E5;
+   color:#FFFFFF;
+   font-family: "Inter";
+    }
+  #main {
+    margin: 228px 24px 212px 24px;
+    width: 1448px;
+   
+  }
+h1 {
+    font-size: 110px;
+    font-weight: 900;
+    color: #0B2239;
+    margin-bottom: 262px;
+    margin-left: 24px;
+}
+.accept {
+    background-color: #0B2239;
+    margin: 0px 24px 24px 24px;
+    
+}
+
+.text_accept {
+    width: 922px;
+    height: 42px;
+    font-size: 13px;
+    display: inline-block;
+    padding: 16px 42px 16px 120px;
+    margin: 0px;
+}  
+.setting  {
+    display: inline-block;
+        }
+ .link_setting  {
+    color: #4AD295;
+    text-decoration: underline;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 26px 0px 26px 0px;
+    margin-right: 20px;
+    width: 86px;
+    
+   }
+.button {
+    color: #FFFFFF;
+    background-color: #4AD295;
+    text-align: left;
+    border-radius: 2px;
+    border: none;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 8px 10px;
+    margin: 18px auto 18px 0px;
+    width: 130px;
+    
+}
+.use_cookies {
+    background-color: #2B2627;
+    margin: 0px 24px 0px 24px;
+    font-weight: 400;
+               
+}
+.mark {
+    padding-left: 345px;
+    padding-top: 18px;
+    display: inline-block;
+  
+}
+.use_text {
+    font-size: 13px;
+    font-weight: 400;
+    padding: 16px 20px 18px 8px;
+    display: inline-block;
+}
+.cross {
+    padding: 18px 345px 18px auto;
+}
+.cookies_policies {
+    width: 560px;
+    color: #0D0C22; 
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    margin: 72px auto 24px 24px;
+}
+.vector {
+    padding: 8px;
+    margin: 18px 10px 18px 16px;
+    display: inline-block;
+    background-color: rgba(234, 76, 137, 0.1);
+    border-radius: 10px;
+    
+}
+.policy {
+    color: #EA4C89;
+    font-size: 14px; 
+
+}
+
+.policy_text {
+width: 347px;
+height: 40px;
+display: inline-block;
+font-size: 14px;
+padding: 18px 0px;
+font-weight: 400;
+}
+.agree_cookie {
+    color: #E6842E;
+}
+
+.decline {
+color: #0D0C22;
+background-color: rgba(13, 12, 34, 0.05);
+border-radius: 8px;
+border: none;
+font-size: 12px;
+padding: 4px 10px;
+margin: 22px 10px;
+font-size: 12px;
+font-weight: 500;
+
+}
+.allow {
+    background-color:  #EA4C89;
+    color:#FFFFFF;
+    border-radius: 8px;
+    border: none;
+    font-size: 12px;
+    padding: 4px 10px;
+    margin: 22px auto 22px 0px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .agree {
+width: 540px;
+font-size: 12px;
+border-radius: 10px;
+background-color: #26262B;
+margin: 0px auto 72px 24px;
+padding: 12px 10px 12px 16px;
+
+  }
+  .agree_text{
+    width: 469px;
+    display: inline-block;
+  }
+  .agree_button {
+    padding: 4px 10px;
+    margin: 18px 10px 18px 0px;
+    display: inline-block;
+    border-radius: 8px;
+  }
+.cookie_notice{
+    width: 360px;
+    height: 206px;
+    font-family: "Roboto";
+    font-size: 14px;
+    background-color: rgba(28, 37, 64, 0.95);
+    border-radius: 6px; 
+    margin: 0px 40px 0px 24px;
+    float: left;
+     }
+ 
+.header {
+    font-size: 16px;
+    padding: 24px 215px 0px 24px;;
+    margin: 0px;
+  
+}
+.header_text {
+    padding: 10px 24px 16px 24px;
+    margin: 0px;
+  
+    
+}
+.link_policy {
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+.manage_header {
+padding: 24px 67px 32px 24px;
+margin-bottom: 34px;
+color: #FFFFFF;
+text-decoration: none;
+
+}
+.manage_button {
+    padding: 8px 20px;
+margin: 16px 24px 16px 0px;
+border: none;
+border-radius: 6px;
+background-color: #09B3AF;
+color: #FFFFFF;;
+}
+
+.cookie_header_block{
+    margin-top: 10px;
+}
+.cookie_settings {
+    color: #0F181D;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    width: 360px;
+    font-family: "Roboto";
+    font-size: 14px;
+   float: left;
+   margin-top: 0px;
+   margin-bottom: 50px;
+ }
+
+.header_settings {
+    padding: 16px 210px 10px 16px;
+    font-size: 16px;
+          }
+ .header_settings_text {
+    padding: 0px 10px 0px 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #687F8C;
+ }         
+    
+.button_manage {
+    font-size: 16px;
+    border-radius: 6px;
+    color: #687F8C;
+    border-color: #EAF0F4;
+    border: none;
+    padding: 8px;
+    margin: 16px 8px 16px 16px;
+    width: 144px;
+}
+
+.button_accept {
+   font-size: 16px;
+   border-radius: 6px;
+   color: #FFFFFF;
+   background-color: #40C1A7;
+   border: none;
+   padding: 8px;
+   margin-left: 16px;
+   margin-top: 16px;
+   margin-bottom: 16px;
+   width: 144px;
+   
+}
+.cookies_white {
+    font-family: "Inter";
+    color: #15295A;
+    background-color: white;
+    width: 320px;
+    position: absolute;
+    margin: 300px 40px auto 24px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(186, 226, 255, 0.15) 23.96%, rgba(229, 217, 255, 0.15) 71.87%, rgba(255, 255, 255, 0.15) 100%), #FFFFFF;
+  } 
+  .cookies_white_block {
+    padding: 32px 32px 0px 32px;
+    width: 256px;
+    text-align: center;
+
+}
+     
+.white_header {
+padding-left: 75px;
+text-align: center;
+font-size: 28px;
+width: 104px;
+height: 48px;
+font-weight: 900px;
+  }
+  
+.white_button {
+background-color: #4A7EFF;
+color: #FFFFFF;
+border: none;
+border-radius: 43px;
+padding: 10px 32px;
+margin: 32px 109px 32px 109px ;
+}
+
+.text_cookies {
+color: #000000;
+background-color: #FFFFFF;
+width: 320px;
+border-radius: 4px;
+float: left;
+position: absolute;
+margin-left: 384px;
+margin-top: 300px;
+margin-bottom: 10px;
+padding: 16px 16px 0px 16px;
+font-weight: 400;
+font-size: 14px;
+}
+.link_last {
+    padding-left: 16px;
+    padding-right: 109px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 500px;
+    color: #6666FF;
+    text-decoration: none;
+    
+}
+.button_last {
+    width: 64px;
+    background-color: #6666FF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    margin-top: 12px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+
+    
+}
