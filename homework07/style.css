@@ -1,0 +1,719 @@
+* {
+    margin: 0px;
+    padding: 0px;
+     font-family: "Mulish";
+    font-size: 16px;
+    
+}
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+    background:  #F5F5F5;
+    border: #1B2437;
+   
+}
+.header {
+    width: 1440px;
+    height: 153px;
+    background-color: #FFFFFF;
+  
+}
+
+.header_top_part {
+    width: 100%;
+    height: 73px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid  #F3F3F3;
+}
+.header_logo {
+    width: 109px;
+    font-family: "Rochester";
+    font-size: 32px;
+    text-decoration: none;
+    color: #1B2437;
+    margin-top: 16px;
+    margin-left: 165px;
+}
+.header_media {
+    width: 150px;
+}
+.header_media li, .header_settings li, .header_nav li, .container_products li, .footer_link li, .footer_company li, .footer_customer_list li, .footer_media_list li  {
+   display: inline-block;
+}
+.img_facebook_header {
+    width: 10px;
+    height: 18px;
+    padding-left: 40px;
+}
+.img_insta_header {
+    width: 16px;
+    height: 16px;
+    padding-left: 40px;
+}
+.img_twit_header {
+    width: 18px;
+    height: 14px;
+    color: #1B2437;
+    
+}
+.header_settings {
+    width: 150px;
+    margin-right: 165px;
+   
+   
+}
+.img_glass_header {
+    width: 19px;
+    height: 19px;
+
+}
+.img_cart_header {
+    width: 17px;
+    height: 21px;
+    padding-left: 40px;
+}
+.img_people_header {
+    width: 25px;
+    height: 17px;
+    padding-left: 40px;
+}
+.header_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 23px;
+    margin-left: 457px;
+}
+.header_home {
+    font-family: "Playfair Display";
+    font-size: 28px;
+    font-weight: 400;
+    color: #EDA3B5;
+    padding-right: 81px;
+   
+}
+.header_shop, .header_blog, .header_contacts {
+    font-family: "Playfair Display";
+    font-size: 28px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    padding-right: 81px;
+}
+
+.section_img_hero {
+    width: 1439px;
+ 
+    }
+.section_stylish {
+    position: absolute;
+    top: 100px;
+    width: 446px;
+    height: 134px;
+    color: #FFFFFF;
+    top: 256px;
+    margin-left: 164px;
+    
+}
+.section_head {
+    font-family: "Playfair Display";
+    font-size: 48px;
+    font-weight: 400;
+    padding: 5px;
+}
+.section_text {
+    font-family: "Playfair Display";
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 13px;
+}
+.section_hero_button {
+    width: 255px;
+    height: 77px;
+    background-color: #1B2437;
+    padding: 23px 78px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 15px;
+    border: none;
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: 34px;
+}
+.container_colection {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-top: 70px;
+    width: 900px;
+    height: 458px;
+    margin-left: 190px;
+}
+.container_women_collection, .container_women, .container_dresse,  .container_denim {
+    border-radius: 16px;
+}
+.container_women {
+   background-color: #EFEFF4;
+   width: 303px;
+   margin-left: 32px;
+   height: 225px;
+}
+.container_women_collection {
+    grid-row: 1/span 2;
+    position: relative;
+    margin-left: 165px;
+    
+}
+.head_container_women_collection {
+    font-family:  "Playfair Display";
+    font-size: 32px;
+    color: #FFFFFF;
+    position: absolute;
+    width: 200px;
+    top: 268px;
+    left: 32px;
+    font-weight: 900;
+}
+.text_container_women_collection {
+    color: #FFFFFF;
+    position: absolute;
+    top: 355px;
+    left: 32px;
+    height: 30px;
+}
+.button_women {
+    width: 93px;
+    height: 30px;
+    background-color: #ffffff83;
+    border: none;
+    position: absolute;
+    top: 375px;
+    left: 30px;
+    border-radius: 8px;
+    margin-top: 8px;
+    font-family: "Roboto";
+    font-size: 14px;
+    padding: 0px 22px;
+   color: #FFFFFF;
+  
+   
+}
+
+.text_women_collection {
+margin-top: 53px;
+margin-left: 22px;
+color: #1B2437;
+}
+.head_women_collection {
+width: 60%;
+height: 90px;
+font-family: "Playfair Display";
+font-size: 32px;
+font-weight: 900;
+margin-left: 22px;
+}
+.span_button {
+    color: #FFFFFF;
+}
+.container_dresses {
+    margin-left: 30px;
+    position: relative;
+    width: 302px;
+    height: 225px;
+}
+.text_container_dresses {
+position: absolute;
+top: 53px;
+left: 39px;
+color: #FFFFFF;
+}
+.head_container_dresses {
+    position: absolute;
+    color: #FFFFFF;
+    top: 78px;
+    left: 39px;
+    font-family: "Playfair Display";
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.container_denim {
+    grid-column: 2/span 2;
+    margin-left: 32px;
+    margin-top: 28px;
+    height: 204px;
+    position: relative;
+}
+.text_container_denim {
+    color: #1B2437;
+    position: absolute;
+    top: 64px;
+    left: 22px;
+   
+}
+.head_container_denim {
+    color: #1B2437;
+    font-family: "Playfair Display";
+    font-size: 32px;
+    font-weight: 900;
+    position: absolute;
+    top: 80px;
+    left: 22px;
+   
+}
+a:hover {
+   color: rgb(198, 196, 196);
+   position: inherit;
+}
+.container_products {
+    width: 1110px;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: 165px;
+      }
+.container_products_clothes {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    justify-content: center;
+}
+.img_shoe {
+    width: 156px;
+    height: 127px;
+    padding: 40px 50px;
+}
+.img_shirt {
+    width: 100px;
+    height: 138px;
+    padding: 31px 77px;
+}
+.img_bag {
+    width: 156px;
+    height: 92px;
+    padding: 57px 50px;
+}
+.img_dress {
+    width: 94px;
+    height: 132px;
+    padding: 37px 81px;
+}
+.text_shoe, .text_shirt, .text_bag, .text_dress {
+    font-size: 18px;
+    color: #000000;
+    font-weight: 800;
+    display: block;
+  }
+.block_text_shoe, .block_img_bag {
+    margin-left: 55px;
+    
+}
+.block_text_shirt {
+    margin-left: 68px;
+}
+.block_img_dress {
+    margin-left: 51px;
+}
+.container_products_scrall {
+    margin-top: 24px;
+    width: 84px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 12px;
+    padding-bottom: 24px;
+}
+.circle_link1, .circle_link2,  .circle_link3, .circle_link4 {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #EFEFF4;
+    display: inline-block;
+    
+} 
+.circle_link1 {
+    background-color: #EDA3B5;
+    margin-left: 513px;
+ 
+}
+.section_container_article {
+    margin-top: 70px;
+    width: 1440px;
+
+}
+.head_container_article {
+    color: #1B2437;
+    width: 274px;
+    margin-left: 165px;
+    font-family: "Playfair Display";
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 35px;
+
+}
+.general_conteiner_article {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    width: 1110px;
+    justify-content: space-between;
+    margin-left: 165px;
+    position: relative;
+    gap: 30px;
+    
+}
+.img_ellips1, .img_ellips2, .img_ellips3, .img_ellips4, .img_ellips5, .img_ellips6{
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    
+  }
+    .img_heart1, .img_heart2, .img_heart3, .img_heart4, .img_heart5, .img_heart6  {
+    position: absolute;
+    width: 18px;
+    height: 23px;
+}
+.img_ellips1 {
+    top: 16px;
+    left:  290px;
+}
+.img_heart1 {
+    top: 29px;
+    left:  303px;
+}
+.img_ellips2 {
+    top: 16px;
+    left: 659px;
+    }
+.img_heart2 {
+    top: 29px;
+    left: 672px;
+    }
+.img_ellips3 {
+    top: 16px;
+    right: 38px;
+}
+.img_heart3 {
+    top: 29px;
+    right: 50px;
+    }
+.img_ellips4 {
+    bottom: 435px;
+    left: 290px;
+  
+}
+.img_heart4 {
+    bottom: 445px;
+    left: 302px;
+   
+    }
+.img_ellips5 {
+    bottom: 435px;
+    left: 670px;
+    }
+.img_heart5 {
+        bottom: 445px;
+        left: 683px;
+    }
+.img_ellips6 {
+        bottom: 435px;
+        right: 16px;
+    }
+.img_heart6 {
+        bottom: 445px;
+         right: 29px;
+     }
+.article1, .article2, .article3, .article4, .article5, .article6 {
+    background-color: #FFFFFF;
+    margin: 0px;
+    
+}
+    .article_head1, .article_head2, .article_head3, .article_head4, .article_head5, .article_head6 {
+        font-family: "Playfair Display";
+        font-size: 18px;
+        font-weight: 900px;
+        padding-bottom: 8px;
+        color: #000000;
+        padding-top: 16px;
+        padding-left: 24px;
+        
+    }
+    .article_text1, .article_text2, .article_text3,   .article_text4,  .article_text5, .article_text6 {
+        width: 325px;
+        font-weight: 700;
+        color: #000000;
+        padding-left: 24px;
+        padding-bottom: 27px;
+    } 
+    .article_price1, .article_price2, .article_price3, .article_price4, .article_price5, .article_price6 {
+        color: #000000;
+        font-family: "Playfair Display";
+        font-size: 18px;
+        font-weight: 900;
+        width: 92px;
+        display: inline-block;
+        padding-left: 24px;
+    }
+    .button_article1,  .button_article4, .button_article2, .button_article3, .button_article5, .button_article6 {
+        width: 153px;
+        height: 58px;
+        border-radius: 15px;
+        background-color: #EDA3B5;
+        color: #FFFFFF;
+        border: none;
+        display: inline-block;
+        margin-left: 63px;
+        margin-bottom: 18px;
+        
+
+    }
+    .button_article2, .button_article3, .button_article5, .button_article6 {
+        background-color: #1B2437;
+    }
+     .section_contacts {
+        width: 1086px;
+        margin-left: 177px;
+        position: relative;
+        margin-bottom: 40px;
+     }
+     
+     .contacts_head {
+    font-family: "Playfair Display";
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 70px;
+    margin-bottom: 47px;
+    
+    }
+    .sectioncontacts_map {
+        width: 1110px;
+        background-color: #FFFFFF;
+    }
+    .contacts_map {
+        width: 1086px;
+        padding: 12px 12px 0px 12px;
+     
+    }
+    .map_point {
+        width: 35px;
+        height: 62px;
+        position: absolute;
+        top: 370px;
+        left: 445px;
+    }
+    .contact_information {
+       width: 1110px;
+       display: flex;
+       flex-direction: row;
+       justify-content: start;
+       height: 135px;
+       color: #000000;
+       background-color: #FFFFFF;
+       font-weight: 600;
+
+    }
+    .img_phone {
+    width: 33px;
+    height: 33px;
+    margin-top: 27px;
+    margin-left: 130px;
+    }
+.number {
+    width: 165px;
+    margin-top: 20px;
+    margin-left: 80px;
+    text-decoration: none;
+}
+.img_point {
+    width: 22px;
+    height: 32px;
+    margin-left: 15px;
+
+}
+.point {
+    margin-left: 250px;
+    margin-top: 27px;
+    position: relative;
+}
+.img_point2 {
+    position:absolute;
+    left: 20px;
+    top: 5px;
+
+}
+.adress {
+    margin-top: 20px;
+    margin-left: 250px;
+    
+    
+}
+ .email {
+    margin-left: 200px;
+    margin-top: 27px;
+ }
+ .img_mail {
+    width: 33px;
+    height: 27px;
+    margin-bottom: 23px;
+    
+ }
+ .contact_information a  {
+text-decoration: none;
+color: #000000;
+}
+ .footer_container {
+    width: 1440px;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    margin-top: 32px;
+    background-color: #FFFFFF;
+    
+
+ }
+ .footer_head {
+    font-family: "Rochester";
+    font-size: 32px;
+    font-weight: 400;
+    color: #1B2437;
+    margin: 32px  0px 24px 165px;
+    width: 255px;
+   }
+   .footer_text {
+    width: 245px;
+   }
+     .footer_head_text {
+    width: 245px;
+    font-family: "Playfair Display";
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 170px;
+    margin-bottom: 56px;
+    color: #5C5C5C;
+    
+ }
+ .footer_link {
+    width: 78px;
+    margin-top: 45px;
+    margin-left: 125px;
+  }
+
+  .footer_link_home  {
+    padding-top: 22px;
+    margin-top: 22px;
+
+ }
+ .footer_link_list {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    align-content: space-around;
+    row-gap: 22px;
+   
+  }
+  .footer_link_head, .footer_link_home, .footer_link_shop, .footer_link_blog, .footer_link_contacts {
+    text-decoration: none;
+    color: #8E8E93;
+  }
+  .footer_link_head {
+    color:  #000000;
+    font-family: "Playfair Display";
+    font-size: 18px;
+    font-weight: 900;
+    padding-top: 22px;
+     
+ }
+ .footer_link {
+    width: 151px;
+    margin-top: 45px;
+    margin-left: 207px;
+  }
+  .footer_link_company  {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    align-content: space-around;
+    row-gap: 22px;
+    margin-top: 45px;
+  }  
+  .footer_link_info, .footer_link_work, .footer_link_about, .footer_link_rules,  .footer_link_terms {
+    color: #8E8E93;
+    font-weight: 900;
+    padding-top: 22px;
+    text-decoration: none;
+   }
+.footer_link_info {
+    color:  #000000;
+    font-family: "Playfair Display";
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 22px;
+     
+   }
+   .footer_customer {
+    margin-top: 45px;
+   margin-right: 20px;
+   }
+   .footer_customer_list {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    align-content: space-around;
+    row-gap: 22px;
+    
+      }
+      .footer_customer_care {
+        color:  #000000;
+        font-family: "Playfair Display";
+        font-size: 18px;
+        font-weight: 900;
+        margin-top: 45px;
+        text-decoration: none;
+      }
+      .footer_faq, .footer_customer_discount {
+    color: #8E8E93;
+    font-weight: 900;
+    padding-top: 22px;
+    text-decoration: none;
+      }
+
+    .footer_media {
+        height: 74px;
+        margin-bottom: 25px;
+        display: grid;
+        grid-template-columns: auto auto ;
+        justify-content: start;
+        margin-left: 170px;
+        margin-top: 28px;
+        font-weight: 700;
+        color: #8E8E93;
+        font-size: 12px;
+
+    }
+    .footer_media_list {
+        margin-left: 720px;
+        display: inline;
+        
+    }
+    .img_footer_facebook {
+        width: 18px;
+        height: 14px;
+       
+    }
+.img_footer_insta {
+    width: 16px;
+    height: 16px;
+    margin-right: 40px;
+}
+.img_footer_twit {
+    width: 18px;
+    height: 14px;
+    margin-right: 40px;
+}
+button:hover {
+    color: gray;
+    cursor: pointer;
+}
+
