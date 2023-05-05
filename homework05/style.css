@@ -1,0 +1,113 @@
+body {
+    background-color: rgba(0, 0, 0, 0.774);
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 14px;
+    width: 650px;
+        
+}
+
+.table_first, .table_second, .table_third {
+    width: 100%;
+    border: 1px solid rgb(244, 229, 229);
+    margin-top: 35px;
+    margin-left: 105px;
+    margin-bottom: 25px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    
+}
+
+th, td {
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+    width: 100%;
+    border-bottom: 1px solid rgb(244, 229, 229);
+    border-collapse: collapse;
+    border-right: none;
+   
+    
+}
+.checkbox {
+    text-align: center;
+}
+.text {
+    padding-left: 10px;
+    vertical-align: 1.5px;
+}
+.last_col {
+   padding-left: 100px;
+   font-size: large;
+  
+}
+.icon {
+    width: 18px;
+    height: 18px;
+    padding-right: 5px;
+}
+ 
+.file_download, #img {
+    color: white;
+    text-decoration: none;
+}
+a:hover, #img:hover {
+    color: grey;
+}
+a {
+    padding-left: 30px;
+    text-align: center;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent; 
+    border-right: 8px solid transparent;
+    border-top: 10px solid white;
+    display: inline-block;
+    margin-left: 15px;
+    
+}
+.search_text_col {
+margin: 0;
+padding: 0;
+}
+
+.search_button {
+        
+        padding-right: 10px;
+        font-size: 10px;
+        border: 1px solid grey;
+        background: #f1f1f1;
+        width: 55%;
+        height: 35px;
+        color: #f1f1f114;
+        background-color: rgba(220, 207, 207, 0.042);
+        border-radius: 3px;
+        font-weight: 700;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 14px;
+        float: left;
+       
+      
+      }
+.search_text {
+    float: left;
+    margin-left: 15px;
+    padding-top: 10px;
+    padding-right: 80px;
+}
+
+           ::placeholder {
+        padding-left: 15px;
+        
+      }
+
+#img {
+    float: left;
+    padding-left: 0px;
+}
